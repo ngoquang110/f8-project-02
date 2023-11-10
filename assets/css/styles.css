@@ -450,3 +450,78 @@ a {
   font-weight: 400;
   line-height: 1.53; /* 153.846% */
 }
+
+/* features */
+.features {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+
+.features .body {
+  display: flex;
+}
+
+.features .images {
+  display: flex;
+  gap: 30px;
+}
+
+.features .images img {
+  width: 270px;
+  height: 404px;
+  border-radius: 16px;
+  object-fit: cover;
+  object-position: center right;
+}
+
+.features .images img:first-child {
+  margin-top: 35px;
+}
+
+.features .content {
+  padding: 58px 0 58px 130px;
+}
+
+.features .content .heading {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.features .content .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+/* sign-btn là cảu feature-1 còn join-btn là của feature-2 nhưng cùng chung tính chất nên gộp lại ở đây */
+.features .content .sign-btn,
+.features .content .join-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  border-radius: 26px;
+  background: var(--primary-color);
+}
+/* Features 2 */
+.features-2 {
+  padding-bottom: 200px;
+}
+
+.features .image img {
+  width: 470px;
+  height: 440px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.features .content-2 {
+  margin-left: 0;
+  margin-right: 130px;
+  padding: 71px 0;
+}
