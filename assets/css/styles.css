@@ -525,3 +525,124 @@ a {
   margin-right: 130px;
   padding: 71px 0;
 }
+/* Blog */
+.blog {
+  padding: 96px 0;
+  background-color: #fffcf4;
+}
+
+.blog .heading {
+  color: #130606;
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.blog .desc {
+  margin: 16px auto 0;
+  width: 448px;
+  color: #696262;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+
+.blog .blog-list {
+  display: flex;
+  overflow: hidden;
+  gap: 30px;
+  margin-top: 55px;
+}
+
+.blog-list .blog-item {
+  width: calc(33.33% - 20px);
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.blog-item .thumb {
+  width: 370px;
+  height: 250px;
+  border-radius: 16px 16px 0px 0px;
+  object-fit: cover;
+}
+
+.blog-item .info {
+  padding: 20px 20px 28px;
+}
+
+.blog-item .info .date::before {
+  display: inline-block;
+  content: "";
+  margin-right: 4px;
+  width: 6px;
+  height: 6px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.blog-item .info .date {
+  position: relative;
+  display: inline-flex;
+  padding-bottom: 12px;
+  align-items: center;
+  color: #5f5b53;
+  font-family: Poppins, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85; /* 185.714% */
+}
+
+.blog-item .info .date::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 160px;
+  height: 1px;
+  border-radius: 0.5px;
+  background: #e2dfda;
+}
+
+.blog-item .title {
+  margin: 12px 0;
+  width: 330px;
+  color: #171100;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+}
+
+.blog-item .blog-btn:hover {
+  background-color: var(--primary-color);
+}
+
+.blog-item .blog-btn {
+  height: 50px;
+  width: 118px;
+}
+
+.blog .dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 38px;
+}
+
+.blog .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  cursor: pointer;
+}
+
+.blog .dot-active {
+  background-color: var(--primary-color);
+}
